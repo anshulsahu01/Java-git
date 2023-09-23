@@ -14,7 +14,12 @@ public class IfElse {
         if ( age >=18){
             System.out.println( "you are adult");
 
-        } else{
+        }
+        else if ( age>= 12){
+            System.out.print ("you are tinager");
+
+        }
+        else{
             System.out.println("you are miner");
         }
 
