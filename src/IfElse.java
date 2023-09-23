@@ -9,14 +9,14 @@ public class IfElse {
         System.out.println("enter your age");
 
         int age = obj.nextInt();
-//        System.out .println( age);
+        System.out .println( "your age is "   +age+  "   and ");
 
         if ( age >=18){
-            System.out.println( "you are adult");
+            System.out.println( "you are  a adult");
 
         }
         else if ( age>= 12){
-            System.out.print ("you are tinager");
+            System.out.print ("you are a tinager");
 
         }
         else{
